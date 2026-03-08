@@ -4,6 +4,7 @@ FROM postgres:18
 # 设置环境变量，防止安装过程中的交互提示
 ENV DEBIAN_FRONTEND=noninteractive
 
+
 # 更新并安装 PostGIS 及其依赖
 # PostgreSQL 18 的官方仓库通常已经包含对应的 postgis 包
 RUN apt-get update \
