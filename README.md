@@ -47,7 +47,7 @@ docker run -d \
   -e POSTGRES_USER=bianmin \
   -e POSTGRES_PASSWORD=password \
   -p 5432:5432 \
-  ghcr.io/lane-fullstack/postgres-postgis/postgres-postgis:latest
+  ghcr.io/lane-fullstack/postgres-postgis:latest
 
 ```
  
@@ -57,7 +57,7 @@ version: "3"
 
 services:
   postgres:
-    image: ghcr.io/lane-fullstack/postgres-postgis/postgres-postgis:latest
+    image: ghcr.io/lane-fullstack/postgres-postgis:latest
     container_name: postgres
     restart: always
     environment:
