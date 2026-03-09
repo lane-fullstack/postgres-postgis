@@ -1,4 +1,4 @@
-# PostgreSQL 18 + PostGIS (ARM64 & AMD64)
+# PostgreSQL 18 + PostGIS (ARM64 & AMD64 && UNKNOW)
 
 A lightweight Docker image based on the official **PostgreSQL 18** image with **PostGIS** installed.
 
